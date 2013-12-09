@@ -1,0 +1,174 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+}
+
+#screen {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*width: 60px;*/
+	/*height: 120px;*/
+	bottom: 0;
+	right: 0;
+	/*#A60522*/
+	background-color:#4B8F3F;
+	background-size: 40px 40px;
+	 background-image: 
+	 					-webkit-radial-gradient(49.5% 23% , circle, white, white 2px, transparent 2px),
+	 					-webkit-linear-gradient(-20deg, #4B8F3F, #4B8F3F 40%, transparent 40%, transparent),
+	 					-webkit-linear-gradient(20deg, transparent, transparent 60%,  #4B8F3F 60%, #4B8F3F ),
+	 					-webkit-linear-gradient(transparent, transparent 25%, white 25%, white 80%, transparent 80%, transparent),
+						-webkit-linear-gradient(0deg, #4B8F3F, #4B8F3F 46%, transparent 46%, transparent 54%, #4B8F3F 54%, #4B8F3F),
+	 					-webkit-linear-gradient(transparent, transparent 80%, #470805 80%, #470805)
+
+
+ 
+	 					 					
+	 					
+
+
+	 ;					
+	 					
+}   
+
+
+
+#past {
+	/* borders:
+	-webkit-linear-gradient(transparent, transparent 99%, red ), 
+	 					-webkit-linear-gradient(0deg, transparent, transparent 99%, red),
+
+	square pixel -webkit-radial-gradient(24px 34px , circle, white, white 1px, transparent 2px)
+
+	*/
+	
+
+	/*background-color: orange;
+	background-size: 50px 50px;*/
+	/*background-image: 
+
+,
+	 					-webkit-linear-gradient(45deg, transparent, transparent 44%, rgba(255, 0, 0, 0.5) 45%, rgba(255, 0, 0, 0.5) 55%, transparent 56%)
+	/* circles in squares
+	-webkit-linear-gradient(transparent 0px, transparent 49px, white), 
+	 					-webkit-linear-gradient(0deg, transparent, transparent 49px, white),
+	 					-webkit-radial-gradient(circle , transparent, transparent 25px, white 25px, white 25px, transparent 26px);
+	 					*/
+
+/* alice psychedelic
+
+	 					  -webkit-linear-gradient(45deg, green, green 26%, transparent 26%, transparent),
+	 					-webkit-linear-gradient(-45deg, green, green 26%, transparent 26%, transparent),
+	 					-webkit-linear-gradient(135deg, green, green 26%, transparent 26%, transparent),
+	 					-webkit-linear-gradient(-135deg, green, green 26%, transparent 26%, transparent);
+	 					*/
+
+/*	the grid with tiny lines on every 10px
+
+ 					-webkit-linear-gradient(white, white 1px, transparent 1px, transparent 49px, white), 
+	 					-webkit-linear-gradient(0deg, white, white 1px, transparent 1px, transparent 49px, white),
+	 					-webkit-linear-gradient(transparent, transparent 10px, white 10px, transparent 11px, transparent 20px, white 20px, transparent 21px, transparent 30px, white 30px, transparent 31px, transparent 40px, white 40px, transparent 41px, transparent 49px, white), 
+	 					-webkit-linear-gradient(0deg, transparent, transparent 10px, white 10px, transparent 11px, transparent 20px, white 20px, transparent 21px, transparent 30px, white 30px, transparent 31px, transparent 40px, white 40px, transparent 41px, transparent 49px, white) ;
+*/
+
+
+/* the flowers
+-webkit-linear-gradient(white, transparent 1px, transparent 49px, white), 
+	 					-webkit-linear-gradient(0deg, white, transparent 1px, transparent 49px, white),
+	 					-webkit-radial-gradient(circle, white, white 5px, transparent 6px),
+	 					-webkit-radial-gradient(15px 27px , circle, red, red 6px, transparent 7px),
+	 					-webkit-radial-gradient(34px 29px , circle, red, red 6px, transparent 7px),
+	 					-webkit-radial-gradient(24px 34px , circle, red, red 6px, transparent 7px),
+	 					-webkit-radial-gradient(20px 16px , circle, red, red 6px, transparent 7px),
+	 					-webkit-radial-gradient(32px 17px , circle, red, red 6px, transparent 7px);
+	 					*/
+
+
+/* dark blocks
+
+-webkit-linear-gradient(rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+	 					-webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+	 					-webkit-radial-gradient(circle contain, #1E4158, #1D3e53);
+	 					*/
+
+
+/* Christmas theme1 - squares and lines
+	background-color: white;
+	background-size: 50px 50px;
+	background-image: 
+
+					 -webkit-linear-gradient(45deg,transparent, transparent 49%, #A60303 50%, transparent 51%, transparent),
+						 -webkit-linear-gradient(-45deg,transparent, transparent 49%, #A60303 50%, transparent 51%, transparent),
+						 -webkit-radial-gradient(0px 50px, circle, #730202, 730202 1px, transparent 2px),
+						 -webkit-radial-gradient(0px 0px, circle, #730202, 730202 1px, transparent 2px),
+						 -webkit-radial-gradient(50px 50px, circle, #730202, 730202 1px, transparent 2px),
+						 -webkit-radial-gradient(50px 0px, circle, #730202, 730202 1px, transparent 2px),
+	 					 -webkit-linear-gradient(45deg, #467847, #467847 26%, transparent 26%, transparent),
+	 					-webkit-linear-gradient(-45deg, #467847, #467847 26%, transparent 26%, transparent),
+	 					-webkit-linear-gradient(135deg, #467847, #467847 26%, transparent 26%, transparent),
+	 					-webkit-linear-gradient(-135deg, #467847, #467847 26%, transparent 26%, transparent);
+
+	 					*/
+
+/*Christmas theme 2 - diagonal squares 
+
+background-color: white;
+background-size: 40px 40px;
+background-image:  
+						 					
+	 					-webkit-repeating-linear-gradient(-45deg, white 0%, white 1%, transparent 0%, transparent 24%, white 25%, white 25%),
+	 					-webkit-repeating-linear-gradient(45deg, white 0%, white 1%, transparent 0%, transparent 24%, white 25%, white 25%),
+	 					-webkit-repeating-linear-gradient(-45deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5% ),
+	 					-webkit-repeating-linear-gradient(45deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5% )
+
+
+*/
+
+/* Christmas theme 3 - rhombi
+
+background-color:#03501B;
+	background-size: 80px 100px;
+	 background-image:  
+	 					-webkit-repeating-linear-gradient(-38.5deg, transparent -12.5%,transparent -0.6% , rgba(255, 255, 255, 0.5) 0%,  transparent 0.6%, transparent 12.5%),
+	 					-webkit-repeating-linear-gradient(38.5deg, transparent -12.5%,transparent -0.6% , rgba(255, 255, 255, 0.5) 0%,  transparent 0.6%, transparent 12.5%),
+	 					-webkit-repeating-linear-gradient(-38.5deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5% ),
+	 					-webkit-repeating-linear-gradient(38.5deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5% )
+	 				
+*/
+
+/* Christmas theme 4 - snow on red bgd
+
+background-size: 100px 100px;
+	 background-image: 
+	 					-webkit-radial-gradient(12% 25% , circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 2px, transparent 4px),
+	 					-webkit-radial-gradient(22% 65% , circle, white, white 2px, transparent 4px),
+	 					-webkit-radial-gradient(30% 15% , circle, white, white 2px, transparent 4px),
+	 					-webkit-radial-gradient(52% 85% , circle, white, white 3px, transparent 7px),
+	 					-webkit-radial-gradient(70% 55% , circle, white, white 3px, transparent 5px),					
+	 					-webkit-radial-gradient(79% 5% , circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 2px),
+	 					-webkit-repeating-linear-gradient(0deg, #9C101B, #9C101B 9%, #730710 11%, #730710 18%, #9C101B 20%)
+
+
+*/
+
+/* Christmas theme 5 - trees
+background-color:#4B8F3F;
+	background-size: 40px 40px;
+	 background-image: 
+	 					-webkit-radial-gradient(49.5% 23% , circle, white, white 2px, transparent 2px),
+	 					-webkit-linear-gradient(-20deg, #4B8F3F, #4B8F3F 40%, transparent 40%, transparent),
+	 					-webkit-linear-gradient(20deg, transparent, transparent 60%,  #4B8F3F 60%, #4B8F3F ),
+	 					-webkit-linear-gradient(transparent, transparent 25%, white 25%, white 80%, transparent 80%, transparent),
+						-webkit-linear-gradient(0deg, #4B8F3F, #4B8F3F 46%, transparent 46%, transparent 54%, #4B8F3F 54%, #4B8F3F),
+	 					-webkit-linear-gradient(transparent, transparent 80%, #470805 80%, #470805)
+
+
+	 					*/
+
+}
