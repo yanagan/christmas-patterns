@@ -1,5 +1,5 @@
 .inscribedCircle {
-	background-color: orange;
+	background-color: #F5A600;
 	background-size: 50px 50px;
 	background-image:	-webkit-linear-gradient(white -1%, transparent 1%, transparent 99%, white 99%, white), 
 						-webkit-linear-gradient(0deg, white -1%, transparent 1%, transparent 99%, white 99%, white),

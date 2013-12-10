@@ -1,4 +1,4 @@
-.circles {
+.paper {
 	background-color:#4B8F3F;
 	background-size: 90px 90px;
 	background-image:-webkit-radial-gradient(0 100%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
@@ -15,6 +15,5 @@
 	 				radial-gradient(100% 0%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
 	 				radial-gradient( 19% 35%, circle, #A60522, #A60522 4%, #F3CACA 2%, #F3CACA 6%, green 6%, green 10%, #730710 11%, #730710 12%, transparent 13%),
 	 				radial-gradient(70% 70%, circle, #FFD8D8, #FFD8D8 4%, #4B8F3F 5%, #4B8F3F 7%, #A60522 8%, #A60522 10%, #103D12 10%, #103D12 11%, transparent 12%),
-	 				radial-gradient(60% 25%, circle, #730710, #730710 7%, #FFD8D8 4%, #FFD8D8 9%, #035503 10%, #035503 12%, #852222 13%, transparent 14%);
-	 
+	 				radial-gradient(60% 25%, circle, #730710, #730710 7%, #FFD8D8 4%, #FFD8D8 9%, #035503 10%, #035503 12%, #852222 13%, transparent 14%); 
 }
