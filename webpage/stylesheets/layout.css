@@ -8,19 +8,13 @@ html, body {
 }
 
 body {
-	/*background-color: #F1F1F1;*/
 	color: #9DB4BB;
-/*	background-color: #333;
-	color: #8F8F8F;*/
 	background-color: #fdfdfd;
-	/*color: #8B0000;*/
 	font-family:'Typewriter W01 Regular';
 }
 
 h2 {
-	/*color: #222;*/
 	font-size: 28px;
-	margin-top: 10px;
 	line-height: 40px;
 	text-align: center;
 	border-bottom: 4px solid #8B0000;
@@ -53,7 +47,6 @@ h3 {
 }
 
 .strip {
-	/*margin-bottom: 1px;*/
 	height: 400px;
 	border-bottom: 1px solid #422;
 	position: relative;
@@ -163,5 +156,4 @@ footer {
 
 footer a {
 	color: #000;
-	color: #8B0000;	
 }

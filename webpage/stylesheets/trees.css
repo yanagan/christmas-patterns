@@ -1,0 +1,17 @@
+.trees {
+	background-color:#4B8F3F;
+	background-size: 40px 40px;
+	background-image:-webkit-radial-gradient(49.5% 23% , circle, white, white 2px, transparent 2px),
+ 					-webkit-linear-gradient(-20deg, #4B8F3F, #4B8F3F 40%, transparent 40%, transparent),
+ 					-webkit-linear-gradient(20deg, transparent, transparent 60%,  #4B8F3F 60%, #4B8F3F),
+ 					-webkit-linear-gradient(transparent, transparent 25%, white 25%, white 80%, transparent 80%, transparent),
+					-webkit-linear-gradient(0deg, #4B8F3F, #4B8F3F 46%, transparent 46%, transparent 54%, #4B8F3F 54%, #4B8F3F),
+ 					-webkit-linear-gradient(transparent, transparent 80%, #470805 80%, #470805);
+
+	background-image: radial-gradient(49.5% 23% , circle, white, white 2px, transparent 2px),
+ 					 linear-gradient(-20deg, #4B8F3F, #4B8F3F 40%, transparent 40%, transparent),
+ 					 linear-gradient(20deg, transparent, transparent 60%,  #4B8F3F 60%, #4B8F3F),
+ 					 linear-gradient(transparent, transparent 25%, white 25%, white 80%, transparent 80%, transparent),
+					 linear-gradient(0deg, #4B8F3F, #4B8F3F 46%, transparent 46%, transparent 54%, #4B8F3F 54%, #4B8F3F),
+ 					 linear-gradient(transparent, transparent 80%, #470805 80%, #470805);
+}

@@ -1,0 +1,338 @@
+<!doctype>
+<html>
+	<head>
+		<title>CSS Scribbles</title>
+		<meta name="description" content="Yana's Projects | CSS Patterns | Experimenting with CSS Gradients">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href='http://fonts.googleapis.com/css?family=Arvo|PT+Sans' rel='stylesheet' type='text/css'>
+		<link type="text/css" rel="stylesheet" href="http://fast.fonts.net/cssapi/daa72739-f5e5-4a23-a2ee-fa94ebeaeaf3.css"/>
+		<!-- Page Layout -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/layout.css">
+
+			<!-- Christmas Themes -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/mistletoe.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/paper.css">	
+			
+		<link rel="stylesheet" type="text/css" href="stylesheets/marshmallow.css">	
+		<link rel="stylesheet" type="text/css" href="stylesheets/winterWonderland.css">	
+		<link rel="stylesheet" type="text/css" href="stylesheets/snowing.css">	
+		<link rel="stylesheet" type="text/css" href="stylesheets/trees.css">	
+
+		<!-- CSS Patterns -->
+		<link rel="stylesheet" type="text/css" href="stylesheets/blocks.css">	
+		<link rel="stylesheet" type="text/css" href="stylesheets/checkerboard.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/flowers.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/grid.css">	
+		<link rel="stylesheet" type="text/css" href="stylesheets/inscribedCirlce.css">
+		<link rel="stylesheet" type="text/css" href="stylesheets/abstract.css">
+
+		<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+	</head>
+	<!-- This is where I keep my CSS experiments. If you like something feel free to grab it! -->
+	<body>
+		<h1>CSS SCRIBBLES</h1>
+		<h2>Christmas Patterns</h2>
+		<section class="strip mistletoe">
+			<h3>Mistletoe and Holly</h3>
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.mistletoe {
+	background-color: white;
+	background-size: 50px 50px;
+	background-image:
+			 -webkit-linear-gradient(45deg,transparent, transparent 49%, #A60303 50%, transparent 51%, transparent),
+			 -webkit-linear-gradient(-45deg,transparent, transparent 49%, #A60303 50%, transparent 51%, transparent),
+			 -webkit-radial-gradient(0px 50px, circle, #730202, 730202 1px, transparent 2px),
+			 -webkit-radial-gradient(0px 0px, circle, #730202, 730202 1px, transparent 2px),
+			 -webkit-radial-gradient(50px 50px, circle, #730202, 730202 1px, transparent 2px),
+			 -webkit-radial-gradient(50px 0px, circle, #730202, 730202 1px, transparent 2px),
+			 -webkit-linear-gradient(45deg, #467847, #467847 26%, transparent 26%, transparent),
+			 -webkit-linear-gradient(-45deg, #467847, #467847 26%, transparent 26%, transparent),
+			 -webkit-linear-gradient(135deg, #467847, #467847 26%, transparent 26%, transparent),
+			 -webkit-linear-gradient(-135deg, #467847, #467847 26%, transparent 26%, transparent);
+	 					
+	background-image:
+			 linear-gradient(45deg,transparent, transparent 49%, #A60303 50%, transparent 51%, transparent),
+			 linear-gradient(-45deg,transparent, transparent 49%, #A60303 50%, transparent 51%, transparent),
+			 radial-gradient(0px 50px, circle, #730202, 730202 1px, transparent 2px),
+			 radial-gradient(0px 0px, circle, #730202, 730202 1px, transparent 2px),
+			 radial-gradient(50px 50px, circle, #730202, 730202 1px, transparent 2px),
+			 radial-gradient(50px 0px, circle, #730202, 730202 1px, transparent 2px),
+			 linear-gradient(45deg, #467847, #467847 26%, transparent 26%, transparent),
+			 linear-gradient(-45deg, #467847, #467847 26%, transparent 26%, transparent),
+			 linear-gradient(135deg, #467847, #467847 26%, transparent 26%, transparent),
+			 linear-gradient(-135deg, #467847, #467847 26%, transparent 26%, transparent);						
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip paper">
+			<h3>Pretty Paper</h3>
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.paper {
+	background-color:#4B8F3F;
+	background-size: 90px 90px;
+	background-image:
+			-webkit-radial-gradient(0 100%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			-webkit-radial-gradient(100% 100%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			-webkit-radial-gradient(0 0%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			-webkit-radial-gradient(100% 0%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			-webkit-radial-gradient( 19% 35%, circle, #A60522, #A60522 4%, #F3CACA 2%, #F3CACA 6%, green 6%, green 10%, #730710 11%, #730710 12%, transparent 13%),
+			-webkit-radial-gradient(70% 70%, circle, #FFD8D8, #FFD8D8 4%, #4B8F3F 5%, #4B8F3F 7%, #A60522 8%, #A60522 10%, #103D12 10%, #103D12 11%, transparent 12%),
+			-webkit-radial-gradient(60% 25%, circle, #730710, #730710 7%, #FFD8D8 4%, #FFD8D8 9%, #035503 10%, #035503 12%, #852222 13%, transparent 14%);
+	
+	background-image:
+			radial-gradient(0 100%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			radial-gradient(100% 100%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			radial-gradient(0 0%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			radial-gradient(100% 0%, circle, green, green 6%, white 7%, white 7%, green 7%, #A60522 11%, #A60522 11%, transparent 12%),
+			radial-gradient( 19% 35%, circle, #A60522, #A60522 4%, #F3CACA 2%, #F3CACA 6%, green 6%, green 10%, #730710 11%, #730710 12%, transparent 13%),
+			radial-gradient(70% 70%, circle, #FFD8D8, #FFD8D8 4%, #4B8F3F 5%, #4B8F3F 7%, #A60522 8%, #A60522 10%, #103D12 10%, #103D12 11%, transparent 12%),
+			radial-gradient(60% 25%, circle, #730710, #730710 7%, #FFD8D8 4%, #FFD8D8 9%, #035503 10%, #035503 12%, #852222 13%, transparent 14%);
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip marshmallow">
+			<h3>Marshmallow World</h3>
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.marshmallow {
+	background-color: white;
+	background-size: 40px 40px;
+	background-image:
+			 -webkit-repeating-linear-gradient(-45deg, white 0%, white 1%, transparent 0%, transparent 24%, white 25%, white 25%),
+			 -webkit-repeating-linear-gradient(45deg, white 0%, white 1%, transparent 0%, transparent 24%, white 25%, white 25%),
+			 -webkit-repeating-linear-gradient(-45deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%),
+			 -webkit-repeating-linear-gradient(45deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%);
+
+	background-image:
+			 repeating-linear-gradient(-45deg, white 0%, white 1%, transparent 0%, transparent 24%, white 25%, white 25%),
+			 repeating-linear-gradient(45deg, white 0%, white 1%, transparent 0%, transparent 24%, white 25%, white 25%),
+			 repeating-linear-gradient(-45deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%),
+			 repeating-linear-gradient(45deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%);
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip winterWonderland">
+			<h3>Winter Wonderland</h3>
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.winterWonderland {
+	background-color:#03501B;
+	background-size: 80px 100px;
+	background-image: 
+			-webkit-repeating-linear-gradient(-38.5deg, transparent -12.5%,transparent -0.6% , rgba(255, 255, 255, 0.5) 0%,  transparent 0.6%, transparent 12.5%),
+			-webkit-repeating-linear-gradient(38.5deg, transparent -12.5%,transparent -0.6% , rgba(255, 255, 255, 0.5) 0%,  transparent 0.6%, transparent 12.5%),
+			-webkit-repeating-linear-gradient(-38.5deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%),
+			-webkit-repeating-linear-gradient(38.5deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%);
+
+	background-image: 
+			repeating-linear-gradient(-51.5deg, transparent -12.5%,transparent -0.6% , rgba(255, 255, 255, 0.5) 0%,  transparent 0.6%, transparent 12.5%),
+			repeating-linear-gradient(51.5deg, transparent -12.5%,transparent -0.6% , rgba(255, 255, 255, 0.5) 0%,  transparent 0.6%, transparent 12.5%),
+			repeating-linear-gradient(-51.5deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%),
+			repeating-linear-gradient(51.5deg, rgba(166, 5, 34, 0.7) -15.5%, rgba(166, 5, 34, 0.7) 15.5%, transparent 13%, transparent 34.5%);
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip snowing">
+			<h3>Let It Snow</h3>
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.snowing {
+	background-size: 100px 100px;
+	background-image: 
+			-webkit-radial-gradient(12% 25% , circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 2px, transparent 4px),
+			-webkit-radial-gradient(22% 65% , circle, white, white 2px, transparent 4px),
+			-webkit-radial-gradient(30% 15% , circle, white, white 2px, transparent 4px),
+			-webkit-radial-gradient(52% 85% , circle, white, white 3px, transparent 7px),
+			-webkit-radial-gradient(70% 55% , circle, white, white 3px, transparent 5px),					
+			-webkit-radial-gradient(79% 5% , circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 2px),
+			-webkit-repeating-linear-gradient(0deg, #9C101B, #9C101B 9%, #730710 11%, #730710 18%, #9C101B 20%);
+
+	background-image:
+			radial-gradient(12% 25% , circle, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8) 2px, transparent 4px),
+			radial-gradient(22% 65% , circle, white, white 2px, transparent 4px),
+			radial-gradient(30% 15% , circle, white, white 2px, transparent 4px),
+			radial-gradient(52% 85% , circle, white, white 3px, transparent 7px),
+			radial-gradient(70% 55% , circle, white, white 3px, transparent 5px),					
+			radial-gradient(79% 5% , circle, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7) 2px, transparent 2px),
+			repeating-linear-gradient(0deg, #9C101B, #9C101B 9%, #730710 11%, #730710 18%, #9C101B 20%);
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip trees">
+			<h3>White Christmas</h3>
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.trees {
+	background-color:#4B8F3F;
+	background-size: 40px 40px;
+	background-image:
+			-webkit-radial-gradient(49.5% 23% , circle, white, white 2px, transparent 2px),
+			-webkit-linear-gradient(-20deg, #4B8F3F, #4B8F3F 40%, transparent 40%, transparent),
+			-webkit-linear-gradient(20deg, transparent, transparent 60%,  #4B8F3F 60%, #4B8F3F),
+			-webkit-linear-gradient(transparent, transparent 25%, white 25%, white 80%, transparent 80%, transparent),
+			-webkit-linear-gradient(0deg, #4B8F3F, #4B8F3F 46%, transparent 46%, transparent 54%, #4B8F3F 54%, #4B8F3F),
+			-webkit-linear-gradient(transparent, transparent 80%, #470805 80%, #470805);
+
+	background-image:
+			 radial-gradient(49.5% 23% , circle, white, white 2px, transparent 2px),
+			 linear-gradient(-20deg, #4B8F3F, #4B8F3F 40%, transparent 40%, transparent),
+			 linear-gradient(20deg, transparent, transparent 60%,  #4B8F3F 60%, #4B8F3F),
+			 linear-gradient(transparent, transparent 25%, white 25%, white 80%, transparent 80%, transparent),
+			 linear-gradient(0deg, #4B8F3F, #4B8F3F 46%, transparent 46%, transparent 54%, #4B8F3F 54%, #4B8F3F),
+			 linear-gradient(transparent, transparent 80%, #470805 80%, #470805);
+}
+				</pre>
+			</div>
+		</section>
+
+		<h2>Other Patterns</h2>
+
+		<section class="strip blocks">
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.blocks {
+	background-color: #283B41;
+	background-size: 50px 50px;
+
+	background-image:
+				-webkit-linear-gradient(rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+				-webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+				-webkit-radial-gradient(circle contain, #1E4158, #1D3e53);
+	 					
+	background-image:
+				linear-gradient(rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+	 			linear-gradient(0deg, rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+	 			radial-gradient(circle contain, #1E4158, #1D3e53);	
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip checkerboard">
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.checkerboard {
+	background-color: #FF3E00;
+	background-size: 50px 50px;
+	background-image:
+				-webkit-linear-gradient(45deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent),
+				-webkit-linear-gradient(-45deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent),
+				-webkit-linear-gradient(135deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent),
+				-webkit-linear-gradient(-135deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent);
+
+	background-image:
+				linear-gradient(45deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent),
+				linear-gradient(-45deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent),
+				linear-gradient(135deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent),
+				linear-gradient(-135deg, #FF8E0D, #FF8E0D 25%, transparent 25%, transparent);
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip flowers">
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.flowers {
+	background-color: #0F5701;
+	background-size: 50px 50px;
+	background-image:
+				-webkit-radial-gradient(circle, #D8CDDD, #D8CDDD 16%, transparent 17%),
+				-webkit-radial-gradient(50% 30.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+				-webkit-radial-gradient(34% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+				-webkit-radial-gradient(66% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+				-webkit-radial-gradient(40% 62.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+				-webkit-radial-gradient(62% 61.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%);
+	 					
+background-image:
+			radial-gradient(circle, #D8CDDD, #D8CDDD 16%, transparent 17%),
+			radial-gradient(50% 30.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+			radial-gradient(34% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+			radial-gradient(66% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+			radial-gradient(40% 62.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+			radial-gradient(62% 61.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%);	
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip grid">
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.grid {
+	background-color: #6B0000;
+	background-size: 50px 50px;
+	background-image:
+				-webkit-linear-gradient(#530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000), 
+				-webkit-linear-gradient(0deg, #530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000),
+				-webkit-repeating-linear-gradient(transparent 0%, transparent 19%, #530000 19%, #530000 20%),
+				-webkit-repeating-linear-gradient(0deg, transparent 0%, transparent 19%, #530000 19%, #530000 20%);
+
+	background-image:
+				linear-gradient(#530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000), 
+				linear-gradient(90deg, #530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000),
+				repeating-linear-gradient(transparent 0%, transparent 19%, #530000 19%, #530000 20%),
+				repeating-linear-gradient(90deg, transparent 0%, transparent 19%, #530000 19%, #530000 20%);
+}
+				</pre>
+			</div>
+		</section>
+
+		<section class="strip inscribedCircle">
+			<div class="code">
+				<a href="#" class="toggle"><span>Get the code</span></a>
+				<pre>
+.inscribedCircle {
+	background-color: #F5A600;
+	background-size: 50px 50px;
+	background-image:
+				-webkit-linear-gradient(white -1%, transparent 1%, transparent 99%, white 99%, white), 
+				-webkit-linear-gradient(0deg, white -1%, transparent 1%, transparent 99%, white 99%, white),
+				-webkit-radial-gradient(circle, transparent, transparent 68%, white 68%, white 71%, transparent 71%);
+
+	background-image:
+				linear-gradient(white -1%, transparent 1%, transparent 99%, white 99%, white), 
+				linear-gradient( 90deg, white -1%, transparent 1%, transparent 99%, white 99%, white),
+				radial-gradient(circle, transparent, transparent 68%, white 68%, white 71%, transparent 71%);
+}
+				</pre>
+			</div>
+		</section>
+
+		<footer class="footer">
+			<a href="#">made by Yana</a>
+		</footer>
+
+		<script type="text/javascript">
+		$('.code .toggle').on('click', function(event) {
+			event.preventDefault();
+
+			$(this).parent().toggleClass('visible');
+		})
+		</script>
+	</body>
+</html>

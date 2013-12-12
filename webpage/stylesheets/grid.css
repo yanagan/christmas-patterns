@@ -1,0 +1,13 @@
+.grid {
+	background-color: #6B0000;
+	background-size: 50px 50px;
+	background-image:	-webkit-linear-gradient(#530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000), 
+						-webkit-linear-gradient(0deg, #530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000),
+						-webkit-repeating-linear-gradient(transparent 0%, transparent 19%, #530000 19%, #530000 20%),
+						-webkit-repeating-linear-gradient(0deg, transparent 0%, transparent 19%, #530000 19%, #530000 20%);
+
+	background-image:	linear-gradient(#530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000), 
+						linear-gradient(90deg, #530000 -2%, #530000 2%, transparent 2%, transparent 98%, #530000 98%, #530000),
+						repeating-linear-gradient(transparent 0%, transparent 19%, #530000 19%, #530000 20%),
+						repeating-linear-gradient(90deg, transparent 0%, transparent 19%, #530000 19%, #530000 20%);
+}
