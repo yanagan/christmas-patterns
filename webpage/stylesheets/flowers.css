@@ -1,0 +1,17 @@
+.flowers {
+	background-color: #0F5701;
+	background-size: 50px 50px;
+	background-image:	-webkit-radial-gradient(circle, #D8CDDD, #D8CDDD 16%, transparent 17%),
+	 					-webkit-radial-gradient(50% 30.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					-webkit-radial-gradient(34% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					-webkit-radial-gradient(66% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					-webkit-radial-gradient(40% 62.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					-webkit-radial-gradient(62% 61.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%);
+	 					
+background-image:		radial-gradient(circle, #D8CDDD, #D8CDDD 16%, transparent 17%),
+	 					radial-gradient(50% 30.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					radial-gradient(34% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					radial-gradient(66% 43%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					radial-gradient(40% 62.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%),
+	 					radial-gradient(62% 61.5%, circle, #A66AA2, #A66AA2 14.5%, transparent 16%);	
+}

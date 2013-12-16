@@ -1,0 +1,13 @@
+.blocks {
+	background-color: #283B41;
+	background-size: 50px 50px;
+
+	background-image: -webkit-linear-gradient(rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+	 				-webkit-linear-gradient(0deg, rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+	 				-webkit-radial-gradient(circle contain, #1E4158, #1D3e53);
+	 					
+	background-image:linear-gradient(rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+		 			linear-gradient(0deg, rgba(255, 255, 255, 0.1), transparent 1px, transparent 49px, rgba(255, 255, 255, 0.1) 49px, #0C151B),
+		 			radial-gradient(circle contain, #1E4158, #1D3e53);
+	
+}
