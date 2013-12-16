@@ -8,32 +8,52 @@ html, body {
 }
 
 body {
-	color: #9DB4BB;
+	color: #888;
 	background-color: #fdfdfd;
-	font-family:'Typewriter W01 Regular';
+	font-family:'AvenirNextLTW01-UltraLi';
 }
 
 h2 {
 	font-size: 28px;
 	line-height: 40px;
 	text-align: center;
-	border-bottom: 4px solid #8B0000;
-}
-
-h1 + h2 {
-	color: #740202;
-	
 }
 
 h1 {
-	font-size: 40px;
-	height: 50px;
-	letter-spacing: 0.1em;
+	padding-top: 44px;
+	font-size: 128px;
+	line-height: 128px;
 	text-align: center;
+	color: #8B0000;
+	font-family:'William Lucas W01';
+	background: #f5f5f5;
+	font-weight: 100;
+	text-rendering: optimizeLegibility;
+}
+
+h2 {
+	padding-top: 32px;
+	font-size: 20px;
+	line-height: 48px;
+	padding-bottom: 24px;
+	background: #f5f5f5;
+	border-bottom: 4px solid #8B0000;
+	font-weight: 200;
+	color: #888;
+}
+
+h1 + h2 {
+	padding-top: 0;
+	margin-top: -32px;	
 }
 
 a {
+	color: #888;
 	text-decoration: none;
+}
+
+a:hover {
+	color: #8B0000;	
 }
 
 li {
@@ -55,51 +75,30 @@ h3 {
 
 
 .strip h3 {
-	font-family:'ReklameScriptW00-Regula';
+	position: absolute;
+	left: 50%;
+	top: auto;
+	bottom: auto;
+	width: 940px;
+	margin-left: -470px;
+
+	font-family: 'ReklameScriptW00-Regula';
 	color: #8B0000;
-	margin: 0 auto 0;
 	text-align: center;
 	font-size: 156px;
 	line-height: 400px;
-	min-width: 940px;
-	position: relative;
-	text-shadow: 0 2px 0 #000;
-	-webkit-transform: rotateZ(-8deg);
-}
-
-.strip h3::before {
-	-webkit-text-stroke: 40px rgba(255, 255, 255, 1);
-	text-shadow: 0 20px 50px rgba(0, 0, 0, 0.95);
-}
-
-.strip.mistletoe h3::before {
-	content: 'Mistletoe and Holly';
-	margin-right: -880px;
-}
-
-.strip.paper h3::before {
-	content: 'Pretty Paper';
-	margin-right: -592px;
-}
-
-.strip.marshmallow h3::before {
-	content: 'Marshmallow World';
-	margin-right: -903px;
-}
-
-.strip.winterWonderland h3::before {
-	content: 'Winter Wonderland';
-	margin-right: -863px;
-}
-
-.strip.snowing h3::before {
-	content: 'Let It Snow';
-	margin-right: -532px;
-}
-
-.strip.trees h3::before {
-	content: 'White Christmas';
-	margin-right: -778px;
+	text-shadow: 0 11px 0 #fff,
+		0 1px 0 #fff, 
+		0 2px 0 #fff, 
+		0 3px 0 #fff, 
+		0 4px 0 #fff, 
+		0 5px 0 #fff, 
+		0 6px 0 #fff, 
+		0 7px 0 #fff, 
+		0 8px 0 #fff, 
+		0 9px 0 #fff, 
+		0 10px 0 #fff, 
+		0 -3px 0 #fff, 0 20px 20px rgba(0, 0, 0, 0.55);
 }
 
 .strip .code {
@@ -112,19 +111,29 @@ h3 {
 	width: 800px;
 	height: 400px;
 	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	transition: all 0.5s;
 }
 
 .strip .code pre {
 	width: 725px;
 	overflow: auto;
+	font-family: 'Menlo Pro', Consolas, monospace;
 }
 
 .strip:hover .code {
 	-webkit-transform: translateX(-50px);
+	-moz-transform: translateX(-50px);
+	-ms-transform: translateX(-50px);
+	transform: translateX(-50px);
 }
 
 .strip .code.visible {
 	-webkit-transform: translateX(-800px);
+	-moz-transform: translateX(-800px);
+	-ms-transform: translateX(-800px);
+	transform: translateX(-800px);
 }
 
 .strip .toggle {
@@ -146,6 +155,12 @@ h3 {
 	font-size: 20px;
 	-webkit-transform: rotate(-90deg) translateX(-400px);
 	-webkit-transform-origin: 0 0;
+	-moz-transform: rotate(-90deg) translateX(-400px);
+	-moz-transform-origin: 0 0;
+	-ms-transform: rotate(-90deg) translateX(-400px);
+	-ms-transform-origin: 0 0;
+	transform: rotate(-90deg) translateX(-400px);
+	transform-origin: 0 0;
 }
 
 footer {
@@ -155,5 +170,5 @@ footer {
 }
 
 footer a {
-	color: #000;
+	color: #8B0000;
 }
