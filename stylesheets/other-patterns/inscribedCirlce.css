@@ -1,11 +1,7 @@
 .inscribedCircle {
 	background-color: #F5A600;
 	background-size: 50px 50px;
-	background-image:	-webkit-linear-gradient(white -1%, transparent 1%, transparent 99%, white 99%, white), 
-						-webkit-linear-gradient(0deg, white -1%, transparent 1%, transparent 99%, white 99%, white),
-						-webkit-radial-gradient(circle, transparent, transparent 68%, white 68%, white 71%, transparent 71%);
-
-	background-image:	linear-gradient(white -1%, transparent 1%, transparent 99%, white 99%, white), 
-						linear-gradient( 90deg, white -1%, transparent 1%, transparent 99%, white 99%, white),
-						radial-gradient(circle, transparent, transparent 68%, white 68%, white 71%, transparent 71%);
+	background-image:linear-gradient(#fff -1%, transparent 1%, transparent 99%, #fff 99%, #fff), 
+					linear-gradient( 90deg, #fff -1%, transparent 1%, transparent 99%, #fff 99%, #fff),
+					radial-gradient(circle, transparent, transparent 68%, #fff 68%, #fff 71%, transparent 71%);
 }
